@@ -1,0 +1,74 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+.header__title{
+    font-size: 30px;
+    /* padding: 20px 30px; */
+    color: navy;
+    display: inline-block;
+}
+
+ul{
+    width: 40%;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    list-style: none;
+}
+
+.home{
+    color: navy;
+}
+
+.business_details{
+    color: navy;
+}
+
+.reqruitment {
+    color: navy;
+}
+
+.contact {
+    color: navy;
+}
+
+main{
+    position: static;
+}
+
+.main__text{
+    width: 70vw;
+    position: relative;
+    top: 400px;
+    font-size: 60px;
+    z-index: 0;
+}
+
+.main__text::after{
+    position: absolute;
+    top: 60px;
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 25vh;
+    background-color: navy;
+    z-index: 0;
+}
+
+.main__img{
+    width: 50vw;
+    height: 60vh;
+    margin: 0px 0px 0px auto;
+    display: block;
+    position: relative;
+    top: 10px;
+    z-index: 10;
+}
